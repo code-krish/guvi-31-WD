@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .par {
+            margin-right: 1000px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>difference between .call(), .apply(), .bind()</h1>
+    <p class="par">In Object Oriented JavaScript, everything is an object and therefore we can set and access additional
+        properties to functions and methods via the prototype <br><br>
+
+        <b>Call( )</b>: The call() method invokes a function with a given 'this' value and arguments provided one by
+        one. This means that we can call any function, and explicitly specify what 'this' should reference within the
+        calling function.
+        <br><br>
+
+        <b>Apply( )</b>: Invokes the function and allows you to pass in arguments as an array.
+        <br><br>
+        <b>Bind( )</b>Bind(): returns a new function, allowing you to pass in an array and any number of arguments.
+
+        <br><br>
+        Call and apply are pretty interchangeable. Both execute the current function immediately. You need to decide
+        whether it’s easier to send in an array or a comma separated list of arguments. Whereas Bind creates a new
+        function that will have this set to the first parameter passed to bind().
+    </p>
+
+    <img src="../call, apply, bind/Screenshot (7).png" alt="">
+    <script src="/script.js">
+
+    </script>
+
+</body>
+
+</html>
