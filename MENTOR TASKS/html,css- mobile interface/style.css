@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.body {
+    min-height: 100vh;
+    background-color: rgb(139, 107, 202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mobileScreen{
+    width: 303px;
+    height: 620px;
+    background: rgb(236, 244, 250);
+    border-radius: 46px;
+    overflow: hidden;
+}
+
+.mobileScreen img {
+    width: 303px;
+}
+
+.mobileScreen .content ol {
+    
+    list-style:none;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+    margin-top: 12px;
+}
+
+.mobileScreen .content {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.mobileScreen .content button{
+    width: 80px;
+    height: 35px;
+    background: rgba(241, 187, 187, 0.541);
+    border-style: none;
+    border-radius: 15px;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+.mobileScreen .content  img {
+    width: 30px;
+    border-radius: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+    
+}
+.mobileScreen .content .list{
+    flex-grow: 2;
+    margin-left: 7px;
+}
+.followfond {
+    color: gray;
+}
+.mobileScreen .bottom {
+    background: rgb(177, 173, 174);
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
