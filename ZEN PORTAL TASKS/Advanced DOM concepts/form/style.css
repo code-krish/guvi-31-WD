@@ -1,0 +1,13 @@
+body {
+    background-color: cornsilk;
+}
+
+.form-left {
+    border: 2px solid orange;
+    
+}
+
+.sec {
+    display: flex;
+    justify-content: space-around;
+}
